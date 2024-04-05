@@ -181,6 +181,7 @@ main .section3 {
   padding-bottom: 128px;
 }
 main .section3 .theme {
+  padding-bottom: 80px !important;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -333,9 +334,157 @@ main .section4 .cards .card2 .contact .group1 {
   }
   .section4 .cards .card2 .izoh p {
     width: 500px;
-    font-size: 24px;
+    font-size: 18px !important;
   }
   .section4 .cards .card2 .contact {
     width: 500px;
+  }
+  .section4 .cards .card2 .contact .group1 img {
+    width: 40px;
+    height: 50px;
+  }
+  .section4 .cards .card2 .contact .group1 .nomi h2 {
+    font-size: 16px !important;
+  }
+  .section4 .cards .card2 .contact img {
+    width: 60px;
+    height: 30px;
+  }
+}
+@media (max-width: 600px) {
+  .section3 .theme h1 {
+    width: 380px !important;
+    font-size: 32px !important;
+  }
+  .section3 .cards {
+    display: flex;
+  }
+  .section3 .cards .cards_group1, .section3 .cards .cards_group2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .section4 .cards {
+    flex-direction: row !important;
+    display: flex;
+    justify-content: center !important;
+  }
+  .section4 .cards .card2 {
+    width: 500px !important;
+    max-width: 100%;
+    padding-top: 50px;
+  }
+  .section4 .cards .card2 .izoh {
+    display: flex;
+    justify-content: center;
+  }
+  .section4 .cards .card2 .izoh p {
+    width: 400px;
+    font-size: 18px !important;
+    font-weight: 300 !important;
+    line-height: 24px !important;
+  }
+  .section4 .cards .card2 .contact {
+    flex-direction: row !important;
+    width: 400px !important;
+  }
+  .section4 .cards .card2 .contact .group1 img {
+    width: 40px;
+    height: 50px;
+  }
+  .section4 .cards .card2 .contact .group1 .nomi h2 {
+    font-size: 16px !important;
+  }
+  .section4 .cards .card2 .contact img {
+    width: 60px;
+    height: 30px;
+  }
+}
+@media (max-width: 440px) {
+  .section3 .theme h1 {
+    width: 280px !important;
+    font-size: 24px !important;
+    font-weight: 700 !important;
+    line-height: 32px !important;
+  }
+  .section3 .cards {
+    display: flex;
+  }
+  .section3 .cards .cards_group1, .section3 .cards .cards_group2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .section3 .cards .cards_group1 .card, .section3 .cards .cards_group2 .card {
+    padding: 15px !important;
+    width: 280px !important;
+    height: 220px !important;
+  }
+  .section3 .cards .cards_group1 .card img, .section3 .cards .cards_group2 .card img {
+    width: 30px;
+    height: 30px;
+  }
+  .section3 .cards .cards_group1 .card h1, .section3 .cards .cards_group2 .card h1 {
+    padding-top: 40px !important;
+    font-size: 16px !important;
+  }
+  .section3 .cards .cards_group1 .card p, .section3 .cards .cards_group2 .card p {
+    font-size: 12px !important;
+  }
+  .section3 .cards .cards_group2:nth-child(3) h1 {
+    padding-top: 10px !important;
+  }
+  .section3 .cards .cards_group2:nth-child(1) h1 {
+    padding-top: 10px !important;
+  }
+  .section3 .cards .cards_group2:nth-child(2) h1 {
+    padding-top: 10px !important;
+  }
+  .section4 .cards {
+    flex-direction: row !important;
+    display: flex;
+    justify-content: center !important;
+    justify-content: center !important;
+  }
+  .section4 .cards .card1 {
+    width: 280px !important;
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center !important;
+  }
+  .section4 .cards .card1 h1 {
+    font-size: 24px !important;
+    font-weight: 600 !important;
+    line-height: 30px !important;
+  }
+  .section4 .cards .card2 {
+    width: 280px !important;
+    max-width: 100%;
+    padding-top: 50px;
+  }
+  .section4 .cards .card2 .izoh {
+    display: flex;
+    justify-content: center;
+  }
+  .section4 .cards .card2 .izoh p {
+    width: 280px;
+    font-size: 18px !important;
+    font-weight: 300 !important;
+    line-height: 24px !important;
+  }
+  .section4 .cards .card2 .contact {
+    flex-direction: row !important;
+    width: 280px !important;
+  }
+  .section4 .cards .card2 .contact .group1 img {
+    width: 30px;
+    height: 40px;
+  }
+  .section4 .cards .card2 .contact .group1 .nomi h2 {
+    font-size: 14px !important;
+  }
+  .section4 .cards .card2 .contact img {
+    width: 40px;
+    height: 20px;
   }
 }/*# sourceMappingURL=style.css.map */
