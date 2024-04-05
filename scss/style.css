@@ -175,9 +175,98 @@ footer {
   font-weight: 400;
   src: url("../fonts/Poppins-Regular.ttf") format("woff2");
 }
+main .part-1 {
+  background-color: #1c1e53;
+  padding: 126px 0 128px;
+}
+main .part-1 .hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .part-1 .hero-content .text-content h2 {
+  font-size: 54px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 24px;
+}
+main .part-1 .hero-content .text-content p {
+  max-width: 562px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  opacity: 70%;
+  margin-bottom: 48px;
+}
+main .part-1 .hero-content .text-content .hero-buttons {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+main .part-1 .hero-content .text-content .hero-buttons .but1 {
+  padding: 16px 56px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #1b1c2b;
+  background-color: #fcd980;
+  border-radius: 41px;
+  border: 0;
+}
+main .part-1 .hero-content .text-content .hero-buttons .text {
+  display: flex;
+  gap: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+}
+main .part-2 {
+  padding: 57px 0 128px;
+}
+main .part-2 .text-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 68px;
+}
+main .part-2 .text-content h2 {
+  font-size: 48px;
+  font-weight: 600;
+  color: #282938;
+}
+main .part-2 .text-content a {
+  display: flex;
+  gap: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #282938;
+}
+main .part-2 .img-content {
+  display: flex;
+  justify-content: space-between;
+}
+main .part-2 .img-content .large .largediv {
+  display: none;
+  width: 396px;
+  height: 600px;
+  background: linear-gradient(329.39deg, #1c1e53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+  margin-top: -607px;
+  margin-left: -396px;
+  position: absolute;
+  transition: 0.5s ease-in;
+}
+main .part-2 .img-content .large:hover .largediv {
+  display: block;
+  margin-left: 0;
+}
+main .part-2 .img-content .little {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
 main .section3 {
   padding-top: 128px;
-  background-color: #F4F6FC;
+  background-color: #f4f6fc;
   padding-bottom: 128px;
 }
 main .section3 .theme {
@@ -200,18 +289,21 @@ main .section3 .cards {
   flex-direction: column;
   gap: 40px;
 }
-main .section3 .cards .cards_group1, main .section3 .cards .cards_group2 {
+main .section3 .cards .cards_group1,
+main .section3 .cards .cards_group2 {
   display: flex;
   gap: 20px;
 }
-main .section3 .cards .cards_group1 .card, main .section3 .cards .cards_group2 .card {
+main .section3 .cards .cards_group1 .card,
+main .section3 .cards .cards_group2 .card {
   transition: all 0.4s linear;
   width: 405px;
   padding: 0 32px 48px 48px;
   height: 326px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
-main .section3 .cards .cards_group1 .card h1, main .section3 .cards .cards_group2 .card h1 {
+main .section3 .cards .cards_group1 .card h1,
+main .section3 .cards .cards_group2 .card h1 {
   padding-top: 108px;
   font-family: Poppins;
   font-size: 24px;
@@ -220,7 +312,8 @@ main .section3 .cards .cards_group1 .card h1, main .section3 .cards .cards_group
   text-align: left;
   color: #282938;
 }
-main .section3 .cards .cards_group1 .card p, main .section3 .cards .cards_group2 .card p {
+main .section3 .cards .cards_group1 .card p,
+main .section3 .cards .cards_group2 .card p {
   color: #282938;
   font-family: Poppins;
   font-size: 16px;
@@ -228,7 +321,8 @@ main .section3 .cards .cards_group1 .card p, main .section3 .cards .cards_group2
   line-height: 28px;
   text-align: left;
 }
-main .section3 .cards .cards_group1 .card:hover, main .section3 .cards .cards_group2 .card:hover {
+main .section3 .cards .cards_group1 .card:hover,
+main .section3 .cards .cards_group2 .card:hover {
   box-shadow: 4px 4px 6px 4px rgba(0, 0, 0, 0.5);
 }
 main .section4 {
@@ -285,7 +379,8 @@ main .section4 .cards .card2 .contact .group1 {
   .section3 .cards {
     display: flex;
   }
-  .section3 .cards .cards_group1, .section3 .cards .cards_group2 {
+  .section3 .cards .cards_group1,
+  .section3 .cards .cards_group2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -316,7 +411,8 @@ main .section4 .cards .card2 .contact .group1 {
   .section3 .cards {
     display: flex;
   }
-  .section3 .cards .cards_group1, .section3 .cards .cards_group2 {
+  .section3 .cards .cards_group1,
+  .section3 .cards .cards_group2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
