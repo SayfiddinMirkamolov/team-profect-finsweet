@@ -6,36 +6,98 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>finsweet</title>
   <link rel="stylesheet" href="./scss/style.css" />
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body>
-  <header class="header">
-    <div class="container">
-      <nav class="navbar">
-        <a href="./index.html">
-          <img src="./images/header_footer/Logo.svg" alt="Logo">
-        </a>
-        <div class="navbar_items">
-          <a href="./index.html" class="navbar_link">Home</a>
-          <a href="./pages/about.html" class="navbar_link">About us</a>
-          <a href="./pages/pricing.html" class="navbar_link">Pricing</a>
-          <a href="./pages/work.html" class="navbar_link">Work</a>
-          <a href="./pages/blog.html" class="navbar_link">Blog</a>
-          <button class="navbar_btn"><a href="./pages/contact.html">Contact us</a></button>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="navbar">
+          <a href="./index.html">
+            <img src="./images/header_footer/Logo.svg" alt="Logo" />
+          </a>
+          <div class="navbar_items">
+            <a href="./index.html" class="navbar_link">Home</a>
+            <a href="./pages/about.html" class="navbar_link">About us</a>
+            <a href="./pages/pricing.html" class="navbar_link">Pricing</a>
+            <a href="./pages/work.html" class="navbar_link">Work</a>
+            <a href="./pages/blog.html" class="navbar_link">Blog</a>
+            <button class="navbar_btn">
+              <a href="./pages/contact.html">Contact us</a>
+            </button>
+          </div>
+          <div id="burger_menu" class="burger_menu">
+            <span class="burger_menu__top"></span>
+            <span class="burger_menu__center"></span>
+            <span class="burger_menu__bottom"></span>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="part-1">
+        <div class="container">
+          <div class="hero-content">
+            <div class="text-content">
+              <h2>Building stellar websites for early startups</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt.
+              </p>
+              <div class="hero-buttons">
+                <a href="#"><button class="but1">View our work</button></a>
+                <a href="#" class="text">
+                  View Pricing
+                  <img src="./images/home/hero-icon.svg" alt="icon..." />
+                </a>
+              </div>
+            </div>
+            <img src="./images/home/hero-img.png" alt="hero-img" />
+          </div>
         </div>
-        <div id="burger_menu" class="burger_menu">
-          <span class="burger_menu__top"></span>
-          <span class="burger_menu__center"></span>
-          <span class="burger_menu__bottom"></span>
+      </section>
+      <section class="part-2">
+        <div class="container">
+          <div class="text-content">
+            <h2>View our projects</h2>
+            <a href="#"
+              >View More <img src="./images/home/icon_part2.svg" alt="icon..."
+            /></a>
+          </div>
+          <div class="img-content">
+            <div class="large">
+              <img
+                class="large-img"
+                src="./images/home/large_img.png"
+                alt="loading..."
+              />
+              <div class="largediv">
+                <h3>Workhub office Webflow Webflow Design</h3>
+                <p>
+                  Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                  aliquam
+                </p>
+                <a href="#"
+                  >View project
+                  <img src="./images/home/icon2-part2.svg" alt="icon..."
+                /></a>
+              </div>
+            </div>
+            <div class="little">
+              <div class="little-part">
+                <img src="./images/home/little-img1.png" alt="img..." />
+                <div class="littlediv">
+                  <h3>Unisaas Website Design</h3>
+                  <a href="#"
+                    >View portfolio
+                    <img src="./images/home/icon2-part2.svg" alt="icon..."
+                  /></a>
+                </div>
+              </div>
+              <img src="./images/home/little-img2.png" alt="img..." />
+            </div>
+          </div>
         </div>
-      </nav>
-    </div>
-  </header>
-  <main>
-
+      </section>
 
     <div class="section3">
       <div class="container">
@@ -45,40 +107,37 @@
         </div>
         <div class="cards">
           <div class="cards_group1">
-            <div data-aos="flip-left" class="card">
+            <div class="card">
               <h1>Uses Client First</h1>
               <p>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. </p>
             </div>
           
 
-            <div data-aos="flip-left" class="card">
+            <div class="card">
               <h1>Two Free Revision Round</h1>
               <p>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. </p>
             </div>
        
 
-            <div data-aos="flip-left" class="card">
-              <img src="./images/home/icon111.png" alt="">
+            <div class="card">
               <h1>Template Customization</h1>
               <p>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. </p>
             </div>
           </div>
           <div class="cards_group2">
-            <div data-aos="flip-right" class="card">
-              <img src="./images/home/Icon112.png" alt="">
+            <div class="card">
               <h1>24/7 Support</h1>
               <p>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. </p>
             </div>
           
 
-            <div data-aos="flip-right" class="card">
-              <img src="./images/home/icon113.png" alt="">
+            <div class="card">
               <h1>Quick Delivery</h1>
               <p>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. </p>
             </div>
        
 
-            <div data-aos="flip-right" class="card">
+            <div class="card">
               <h1>Hands-on approach</h1>
               <p>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. </p>
             </div>
@@ -90,12 +149,12 @@
     <div class="section4">
       <div class="container">
         <div class="cards">
-          <div data-aos="zoom-in-down" class="card1">
+          <div class="card1">
             <h1>What our clients say about us</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed.</p>
           </div>
 
-          <div data-aos="zoom-in-down" class="card2">
+          <div class="card2">
             <div class="izoh">
               <p>"The best agency we’ve worked with so far. They understand our product and are able to add new features with a great focus."</p>
             </div>
@@ -156,10 +215,6 @@
     </div>
   </footer>
   <script src="./js/main.js"></script>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-  AOS.init();
-</script>
 </body>
 
 </html>
