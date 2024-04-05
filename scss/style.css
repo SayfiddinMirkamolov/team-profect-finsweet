@@ -232,6 +232,33 @@ main .section3 .cards .cards_group1 .card p, main .section3 .cards .cards_group2
 main .section3 .cards .cards_group1 .card:hover, main .section3 .cards .cards_group2 .card:hover {
   box-shadow: 4px 4px 6px 4px rgba(0, 0, 0, 0.5);
 }
+main .section3 .cards .cards_group1 .cardi, main .section3 .cards .cards_group2 .cardi {
+  transition: all 0.4s linear;
+  width: 405px;
+  padding: 0 32px 48px 48px;
+  height: 326px;
+  background-color: #FFFFFF;
+}
+main .section3 .cards .cards_group1 .cardi h1, main .section3 .cards .cards_group2 .cardi h1 {
+  padding-top: 70px;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  color: #282938;
+}
+main .section3 .cards .cards_group1 .cardi p, main .section3 .cards .cards_group2 .cardi p {
+  color: #282938;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+}
+main .section3 .cards .cards_group1 .cardi:hover, main .section3 .cards .cards_group2 .cardi:hover {
+  box-shadow: 4px 4px 6px 4px rgba(0, 0, 0, 0.5);
+}
 main .section4 {
   padding-top: 130px;
   padding-bottom: 128px;
@@ -431,14 +458,21 @@ main .section4 .cards .card2 .contact .group1 {
   .section3 .cards .cards_group1 .card p, .section3 .cards .cards_group2 .card p {
     font-size: 12px !important;
   }
-  .section3 .cards .cards_group2:nth-child(3) h1 {
-    padding-top: 10px !important;
+  .section3 .cards .cards_group1 .cardi, .section3 .cards .cards_group2 .cardi {
+    padding: 15px !important;
+    width: 280px !important;
+    height: 220px !important;
   }
-  .section3 .cards .cards_group2:nth-child(1) h1 {
-    padding-top: 10px !important;
+  .section3 .cards .cards_group1 .cardi img, .section3 .cards .cards_group2 .cardi img {
+    width: 30px;
+    height: 30px;
   }
-  .section3 .cards .cards_group2:nth-child(2) h1 {
-    padding-top: 10px !important;
+  .section3 .cards .cards_group1 .cardi h1, .section3 .cards .cards_group2 .cardi h1 {
+    padding-top: 15px !important;
+    font-size: 16px !important;
+  }
+  .section3 .cards .cards_group1 .cardi p, .section3 .cards .cards_group2 .cardi p {
+    font-size: 12px !important;
   }
   .section4 .cards {
     flex-direction: row !important;
