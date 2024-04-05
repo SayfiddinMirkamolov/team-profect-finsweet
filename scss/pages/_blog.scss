@@ -1,279 +1,255 @@
 .blog {
-    .section-hero{
-        padding: 128px;
-        .blok-hero{
-            .blok-hero-tetil{
-                max-width: 943px;
-                margin: 0 auto;
-                font-family: Poppins;
-                font-size: 48px;
-                font-weight: 600;
-                line-height: 64px;
-                text-align: center;
-                color: #282938;
+  .section-hero {
+    padding: 128px;
+    .blok-hero {
+      .blok-hero-tetil {
+        max-width: 943px;
+        margin: 0 auto;
+        font-family: Poppins;
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 64px;
+        text-align: center;
+        color: #282938;
+      }
+      .img-bbb {
+        max-width: 1280px;
 
-            }
-            .img-bbb{
-                max-width: 1280px;
-                
-                .blok-hero-img{
-                    max-width: 1280px;
-                }
-                
-            }
-            .blok-hero-item{
-                    padding-top: 16px;
-                    padding-bottom: 32px;
-                    font-family: Poppins;
-                    font-size: 16px;
-                    font-weight: 500;
-                    line-height: 28px;
-                    text-align: center;
-                    color: #282938;
-
-            }
-            .blok-hero-hod{
-                width: 831px;
-                margin: 0 auto;
-                padding-top: 48px;
-                font-family: Poppins;
-                font-size: 16px;
-                font-weight: 400;
-                line-height: 28px;
-                text-align: center;
-                color: #282938;
-            }
-            .blok-hero-link{
-                display: flex;
-                justify-content: center;
-
-                font-family: Poppins;
-                font-size: 16px;
-                font-weight: 400;
-                line-height: 28px;
-                text-align: center;
-                color: #2405F2;
-
-
-                padding-top: 28px;
-                
-            }
+        .blok-hero-img {
+          max-width: 1280px;
         }
+      }
+      .blok-hero-item {
+        padding-top: 16px;
+        padding-bottom: 32px;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 28px;
+        text-align: center;
+        color: #282938;
+      }
+      .blok-hero-hod {
+        width: 831px;
+        margin: 0 auto;
+        padding-top: 48px;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: center;
+        color: #282938;
+      }
+      .blok-hero-link {
+        display: flex;
+        justify-content: center;
+
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: center;
+        color: #2405f2;
+
+        padding-top: 28px;
+      }
     }
-    .section-our{
-        .blok-our{
-            padding-bottom: 96px;
-                .blok-our-tetil{
-                    padding-bottom: 48px;
-                    font-family: Poppins;
-                    font-size: 48px;
-                    font-weight: 600;
-                    line-height: 64px;
-                    text-align: center;
-                    color: #282938;
+  }
+  .section-our {
+    .blok-our {
+      padding-bottom: 96px;
+      .blok-our-tetil {
+        padding-bottom: 48px;
+        font-family: Poppins;
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 64px;
+        text-align: center;
+        color: #282938;
+      }
+      .blok-our-cords {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
 
-                }
-            .blok-our-cords{
-                display: flex;
-                justify-content: space-between;
-                flex-wrap: wrap;
-                
+        .blok-our-cord {
+          width: 405px;
+          height: 593px;
+          margin: 32px 0;
 
-                .blok-our-cord{
-                    width: 405px;
-                    height: 593px;
-                   margin: 32px 0;
-                    img{
+          .blok-our-cord-item {
+            padding-top: 32px;
+            padding-bottom: 16px;
+            color: #1c1e53;
 
-                    }
-                    .blok-our-cord-item{
-                        padding-top: 32px;
-                        padding-bottom: 16px;
-                        color: #1C1E53;
-
-                        font-family: Poppins;
-                        font-size: 16px;
-                        font-weight: 500;
-                        line-height: 28px;
-                        text-align: left;
-
-                    }
-                    .blok-our-cord-tetil{
-                       padding-bottom: 16px;
-                        font-family: Poppins;
-                        font-size: 24px;
-                        font-weight: 400;
-                        line-height: 36px;
-                        text-align: left;
-                        color: #282938;
-
-
-                    }
-                    .blok-our-cord-item-see{
-                            padding-bottom: 24px;
-                            font-family: Poppins;
-                            font-size: 16px;
-                            font-weight: 400;
-                            line-height: 28px;
-                            text-align: left;
-                            color: #1C1E53;
-                    }
-                    
-                    
-
-                }
-            }
-
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 28px;
+            text-align: left;
+          }
+          .blok-our-cord-tetil {
+            padding-bottom: 16px;
+            font-family: Poppins;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 36px;
+            text-align: left;
+            color: #282938;
+          }
+          .blok-our-cord-item-see {
+            padding-bottom: 24px;
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 28px;
+            text-align: left;
+            color: #1c1e53;
+          }
         }
+      }
     }
-   
+  }
 }
 
-@media (max-width:1502px) {
-     
-           
-                .img-bbb img{
-                    width: 1208px !important;
-                    height: 500px !important;
-                }
-            
-        
-     
-            
+@media (max-width: 1502px) {
+  .img-bbb img {
+    width: 1208px !important;
+    height: 500px !important;
+  }
 }
-@media (max-width:1424px){
-    .img-bbb img{
-        width: 1188px !important;
-        height: 500px !important;
-    }
+@media (max-width: 1424px) {
+  .img-bbb img {
+    width: 1188px !important;
+    height: 500px !important;
+  }
 }
-@media (max-width:1370px){
-    .img-bbb img{
-        width: 1108px !important;
-        height: 400px !important;
-    }
+@media (max-width: 1370px) {
+  .img-bbb img {
+    width: 1108px !important;
+    height: 400px !important;
+  }
 }
-@media (max-width:1288px){
-    .img-bbb img{
-        width: 1000px !important;
-        height: 400px !important;
-    }
+@media (max-width: 1288px) {
+  .img-bbb img {
+    width: 1000px !important;
+    height: 400px !important;
+  }
 }
-@media (max-width:1200px){
-    .img-bbb img{
-        width: 900px !important;
-        height: 350px !important;
-    }
+@media (max-width: 1200px) {
+  .img-bbb img {
+    width: 900px !important;
+    height: 350px !important;
+  }
 }
-@media (max-width:1100px){
-    .img-bbb img{
-        width: 800px !important;
-        height: 320px !important;
-    }
+@media (max-width: 1100px) {
+  .img-bbb img {
+    width: 800px !important;
+    height: 320px !important;
+  }
 }
-@media (max-width:1000px){
-    .img-bbb img{
-        width: 750px !important;
-        height: 300px !important;
-    }
-    .blok-hero-hod{
-        width: 700px !important;
-    }
-    .blok-hero-tetil{
-        width: 750px !important;
-        font-size: 38px !important;
-        text-align: center !important;
-    }
+@media (max-width: 1000px) {
+  .img-bbb img {
+    width: 750px !important;
+    height: 300px !important;
+  }
+  .blok-hero-hod {
+    width: 700px !important;
+  }
+  .blok-hero-tetil {
+    width: 750px !important;
+    font-size: 38px !important;
+    text-align: center !important;
+  }
 }
-@media (max-width:984px){
-    .blok-hero-item{
-        font-size: 12px !important;
-        font-weight: 400 !important;
-        
-        text-align: center !important;
-    }
+@media (max-width: 984px) {
+  .blok-hero-item {
+    font-size: 12px !important;
+    font-weight: 400 !important;
+
+    text-align: center !important;
+  }
 }
-@media (max-width:930px){
-    .img-bbb img{
-        width: 700px !important;
-        height: 250px !important;
-    }
-    .blok-hero-hod{
-        width: 650px !important;
-    }
-    .blok-hero-tetil{
-        width: 700px !important;
-        font-size: 32px !important;
-        text-align: center !important;
-    }
-    .blok-hero-item{
-        font-size: 12px !important;
-        font-weight: 300 !important;
-        
-        text-align: center !important;
-    }
+@media (max-width: 930px) {
+  .img-bbb img {
+    width: 700px !important;
+    height: 250px !important;
+  }
+  .blok-hero-hod {
+    width: 650px !important;
+  }
+  .blok-hero-tetil {
+    width: 700px !important;
+    font-size: 32px !important;
+    text-align: center !important;
+  }
+  .blok-hero-item {
+    font-size: 12px !important;
+    font-weight: 300 !important;
+
+    text-align: center !important;
+  }
 }
-@media (max-width:910px){
-    .img-bbb img{
-        width: 650px !important;
-        height: 200px !important;
-    }
-    .blok-hero-hod{
-        width: 600px !important;
-    }
-    .blok-hero-tetil{
-        width: 650px !important;
-        font-size: 28px !important;
-        text-align: center !important;
-    }
-    .blok-hero-item{
-        font-size: 12px !important;
-        font-weight: 300 !important;
-        
-        text-align: center !important;
-    }
+@media (max-width: 910px) {
+  .img-bbb img {
+    width: 650px !important;
+    height: 200px !important;
+  }
+  .blok-hero-hod {
+    width: 600px !important;
+  }
+  .blok-hero-tetil {
+    width: 650px !important;
+    font-size: 28px !important;
+    text-align: center !important;
+  }
+  .blok-hero-item {
+    font-size: 12px !important;
+    font-weight: 300 !important;
+
+    text-align: center !important;
+  }
 }
-@media (max-width:870px){
-    .img-bbb img{
-        width: 600px !important;
-        height: 230px !important;
-    }
-    .blok-hero-hod{
-        width: 550px !important;
-    }
-    .blok-hero-tetil{
-        width: 600px !important;
-        font-size: 26px !important;
-        text-align: center !important;
-    }
-    .blok-hero-item{
-        font-size: 12px !important;
-        font-weight: 300 !important;
-        
-        text-align: center !important;
-    }
+@media (max-width: 870px) {
+  .img-bbb img {
+    width: 600px !important;
+    height: 230px !important;
+  }
+  .blok-hero-hod {
+    width: 550px !important;
+  }
+  .blok-hero-tetil {
+    width: 600px !important;
+    font-size: 26px !important;
+    text-align: center !important;
+  }
+  .blok-hero-item {
+    font-size: 12px !important;
+    font-weight: 300 !important;
+
+    text-align: center !important;
+  }
 }
-@media (max-width:430px){
-    .img-bbb img{
-        width: 400px !important;
-        height:  190px !important;
-        padding-left: 0px !important;
-    }
-    .blok-hero-hod{
-        width: 250px !important;
-    }
-    .blok-hero-tetil{
-        width: 250px !important;
-        font-size: 24px !important;
-        text-align: center !important;
-    }
-    .blok-hero-item{
-        font-size: 12px !important;
-        
-        
-        text-align: center !important;
-    }
-    .section-hero{
-        padding: 5px !important;
-    }
+@media (max-width: 430px) {
+  .img-bbb img {
+    width: 400px !important;
+    height: 190px !important;
+    padding-left: 0px !important;
+  }
+  .blok-hero-hod {
+    width: 250px !important;
+  }
+  .blok-hero-tetil {
+    width: 250px !important;
+    font-size: 24px !important;
+    text-align: center !important;
+  }
+  .blok-hero-item {
+    font-size: 12px !important;
+
+    text-align: center !important;
+  }
+  .section-hero {
+    padding: 5px !important;
+  }
 }

@@ -522,6 +522,17 @@ main .section4 .cards .card2 .contact .group1 {
     height: 20px;
   }
 }
+.about .container .about-content .about-title {
+  max-width: 419px;
+  margin: 0 auto;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  color: #282938;
+}
+
 .work .main-start p {
   font-family: Poppins;
   font-size: 16px;
@@ -741,7 +752,7 @@ main .section4 .cards .card2 .contact .group1 {
   font-weight: 400;
   line-height: 28px;
   text-align: center;
-  color: #2405F2;
+  color: #2405f2;
   padding-top: 28px;
 }
 .blog .section-our .blok-our {
@@ -769,7 +780,7 @@ main .section4 .cards .card2 .contact .group1 {
 .blog .section-our .blok-our .blok-our-cords .blok-our-cord .blok-our-cord-item {
   padding-top: 32px;
   padding-bottom: 16px;
-  color: #1C1E53;
+  color: #1c1e53;
   font-family: Poppins;
   font-size: 16px;
   font-weight: 500;
@@ -792,7 +803,7 @@ main .section4 .cards .card2 .contact .group1 {
   font-weight: 400;
   line-height: 28px;
   text-align: left;
-  color: #1C1E53;
+  color: #1c1e53;
 }
 
 @media (max-width: 1502px) {
