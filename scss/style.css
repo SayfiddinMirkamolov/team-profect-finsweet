@@ -249,10 +249,31 @@ main .part-2 .img-content .large .largediv {
   width: 396px;
   height: 600px;
   background: linear-gradient(329.39deg, #1c1e53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+  padding: 312px 35px 76px 48px;
   margin-top: -607px;
   margin-left: -396px;
   position: absolute;
   transition: 0.5s ease-in;
+}
+main .part-2 .img-content .large .largediv h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 16px;
+}
+main .part-2 .img-content .large .largediv p {
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 80%;
+  margin-bottom: 40px;
+  color: #fff;
+}
+main .part-2 .img-content .large .largediv a {
+  display: flex;
+  gap: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fcd980;
 }
 main .part-2 .img-content .large:hover .largediv {
   display: block;
@@ -263,6 +284,33 @@ main .part-2 .img-content .little {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+}
+main .part-2 .img-content .little .little-part .littlediv {
+  display: none;
+  width: 405px;
+  height: 284px;
+  background: linear-gradient(329.39deg, #1c1e53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+  margin-top: -291px;
+  margin-left: 10px;
+  padding: 129px 36px 45px 56px;
+  position: absolute;
+  transition: 0.5s ease-in;
+}
+main .part-2 .img-content .little .little-part .littlediv h3 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 10px;
+}
+main .part-2 .img-content .little .little-part .littlediv a {
+  display: flex;
+  gap: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fcd980;
+}
+main .part-2 .img-content .little .little-part:hover .littlediv {
+  display: block;
 }
 main .section3 {
   padding-top: 128px;
