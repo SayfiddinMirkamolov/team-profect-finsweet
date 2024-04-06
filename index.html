@@ -6,33 +6,100 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>finsweet</title>
   <link rel="stylesheet" href="./scss/style.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 
-<body>
-  <header class="header">
-    <div class="container">
-      <nav class="navbar">
-        <a href="./index.html">
-          <img src="./images/header_footer/Logo.svg" alt="Logo">
-        </a>
-        <div class="navbar_items">
-          <a href="./index.html" class="navbar_link">Home</a>
-          <a href="./pages/about.html" class="navbar_link">About us</a>
-          <a href="./pages/pricing.html" class="navbar_link">Pricing</a>
-          <a href="./pages/work.html" class="navbar_link">Work</a>
-          <a href="./pages/blog.html" class="navbar_link">Blog</a>
-          <button class="navbar_btn"><a href="./pages/contact.html">Contact us</a></button>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="navbar">
+          <a href="./index.html">
+            <img src="./images/header_footer/Logo.svg" alt="Logo" />
+          </a>
+          <div class="navbar_items">
+            <a href="./index.html" class="navbar_link">Home</a>
+            <a href="./pages/about.html" class="navbar_link">About us</a>
+            <a href="./pages/pricing.html" class="navbar_link">Pricing</a>
+            <a href="./pages/work.html" class="navbar_link">Work</a>
+            <a href="./pages/blog.html" class="navbar_link">Blog</a>
+            <button class="navbar_btn">
+              <a href="./pages/contact.html">Contact us</a>
+            </button>
+          </div>
+          <div id="burger_menu" class="burger_menu">
+            <span class="burger_menu__top"></span>
+            <span class="burger_menu__center"></span>
+            <span class="burger_menu__bottom"></span>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- <main>
+      <section class="part-1">
+        <div class="container">
+          <div class="hero-content">
+            <div class="text-content">
+              <h2>Building stellar websites for early startups</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt.
+              </p>
+              <div class="hero-buttons">
+                <a href="#"><button class="but1">View our work</button></a>
+                <a href="#" class="text">
+                  View Pricing
+                  <img src="./images/home/hero-icon.svg" alt="icon..." />
+                </a>
+              </div>
+            </div>
+            <img src="./images/home/hero-img.png" alt="hero-img" />
+          </div>
         </div>
-        <div id="burger_menu" class="burger_menu">
-          <span class="burger_menu__top"></span>
-          <span class="burger_menu__center"></span>
-          <span class="burger_menu__bottom"></span>
+      </section>
+      <section class="part-2">
+        <div class="container">
+          <div class="text-content">
+            <h2>View our projects</h2>
+            <a href="#"
+              >View More <img src="./images/home/icon_part2.svg" alt="icon..."
+            /></a>
+          </div>
+          <div class="img-content">
+            <div class="large">
+              <img
+                class="large-img"
+                src="./images/home/large_img.png"
+                alt="loading..."
+              />
+              <div class="largediv">
+                <h3>Workhub office Webflow Webflow Design</h3>
+                <p>
+                  Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                  aliquam
+                </p>
+                <a href="#"
+                  >View project
+                  <img src="./images/home/icon2-part2.svg" alt="icon..."
+                /></a>
+              </div>
+            </div>
+            <div class="little">
+              <div class="little-part">
+                <img src="./images/home/little-img1.png" alt="img..." />
+                <div class="littlediv">
+                  <h3>Unisaas Website Design</h3>
+                  <a href="#"
+                    >View portfolio
+                    <img src="./images/home/icon2-part2.svg" alt="icon..."
+                  /></a>
+                </div>
+              </div>
+              <img src="./images/home/little-img2.png" alt="img..." />
+            </div>
+          </div>
         </div>
-      </nav>
-    </div>
-  </header>
-  <main>
-
+      </section>
 
     <div class="section3">
       <div class="container">
@@ -42,37 +109,40 @@
         </div>
         <div class="cards">
           <div class="cards_group1">
-            <div class="card">
+            <div data-aos="flip-left" class="card">
               <h1>Uses Client First</h1>
               <p>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. </p>
             </div>
           
 
-            <div class="card">
+            <div data-aos="flip-up" class="card">
               <h1>Two Free Revision Round</h1>
               <p>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. </p>
             </div>
        
 
-            <div class="card">
+            <div data-aos="flip-down" class="cardi">
+              <img src="./images/home/icon111.png" alt="">
               <h1>Template Customization</h1>
               <p>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. </p>
             </div>
           </div>
           <div class="cards_group2">
-            <div class="card">
+            <div data-aos="flip-left" class="cardi">
+              <img src="./images/home/Icon112.png" alt="">
               <h1>24/7 Support</h1>
               <p>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. </p>
             </div>
           
 
-            <div class="card">
+            <div data-aos="flip-up" class="cardi">
+              <img src="./images/home/icon113.png" alt="">
               <h1>Quick Delivery</h1>
               <p>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. </p>
             </div>
        
 
-            <div class="card">
+            <div data-aos="flip-down" class="card">
               <h1>Hands-on approach</h1>
               <p>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. </p>
             </div>
@@ -84,30 +154,158 @@
     <div class="section4">
       <div class="container">
         <div class="cards">
-          <div class="card1">
+          <div data-aos="zoom-in" class="card1">
             <h1>What our clients say about us</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed.</p>
           </div>
 
-          <div class="card2">
+          <div data-aos="zoom-in" class="card2">
             <div class="izoh">
               <p>"The best agency we’ve worked with so far. They understand our product and are able to add new features with a great focus."</p>
             </div>
             <div class="contact">
               <div class="group1">
-                <img src="./images/home_images/img111.png" alt="">
+                <img src="./images/home/img111.png" alt="">
                 <div class="nomi">
                   <p>Jenny Wilson</p>
                   <h2>Vice President</h2>
                 </div>
               </div>
-              <img src="./images/home_images/img112.png" alt="">
+              <img src="./images/home/img112.png" alt="">
             </div>
           </div>
         </div>
       </div>
     </div>
-  </main>
+  </main> -->
+  <main>
+    <section class="home_setion">
+        <div class="container">
+            <div class="building">
+                <div class="building_text">
+                    <h1>Building stellar websites for early startups</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                    <div class="building_btns">
+                        <button class="btn_yellow">View our work</button>
+                        <button class="building_btn"><a href="./pages/pricing.html">View Pricing 
+                            <span>
+                            - - - - >
+                            </span>
+                        </a></button>
+                    </div>
+                </div>
+                <div class="building_img">
+                    <img src="./images/home/home_first_img.png" alt="map">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="home_project">
+        <div class="container">
+            <div class="project_top">
+                <h2>View our projects</h2>
+                <button class="building_btn"><a class="project_top_link" href="./pages/pricing.html">View Pricing 
+                        <span>
+                        - - - - >
+                        </span>
+                </a></button>
+            </div>
+            <div class="project">
+                <div class="project_bigcard">
+                    <div class="project_bigcard__text">
+                        <h3>Workhub office Webflow Webflow Design</h3>
+                        <p>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam </p>
+                        <button class="pricing_page__btn"><a href="./pages/pricing.html">View Pricing <span class="pointer">- - - - ></span></a></button>
+                    </div>
+                </div>
+                <div class="project_cards">
+                    <div class="project_card project_card_one">
+                        <div class="project_card_bg">
+                            <h3>Unisaas Website Design</h3>
+                            <button class="pricing_page__btn"><a href="./pages/pricing.html">View Pricing <span class="pointer">- - - - ></span></a></button>
+                        </div>
+                    </div>
+                    <div class="project_card project_card__two"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="home_design">
+        <div class="container">
+            <div class="design">
+                <span>Features</span>
+                <h2>Design that solves problems, one product at a time</h2>
+                <div class="design_cards">
+                    <div class="design_card">
+                        <span>
+                        </span>
+                        <h4>Uses Client First</h4>
+                        <p>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. </p>
+                    </div>
+                    <div class="design_card">
+                        <span>
+                        </span>
+                        <h4>Two Free Revision Round</h4>
+                        <p>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. </p>
+                    </div>
+                    <div class="design_card">
+                        <span>
+                            <img src="./images/home/home_Icon.svg" alt="icon">
+                        </span>
+                        <h4>Template Customization</h4>
+                        <p>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. </p>
+                    </div>
+                    <div class="design_card">
+                        <span>
+                            <img src="./images/home/home_Icon_(1).svg" alt="icon">
+                        </span>
+                        <h4>24/7 Support</h4>
+                        <p>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. </p>
+                    </div>
+                    <div class="design_card">
+                        <span>
+                            <img src="./images/home/home_Icon_(2).svg" alt="icon">
+                        </span>
+                        <h4>Quick Delivery</h4>
+                        <p>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. </p>
+                    </div>
+                    <div class="design_card">
+                        <span>
+                        </span>
+                        <h4>Hands-on approach</h4>
+                        <p>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="home_clients">
+        <div class="container">
+            <div class="clients">
+                <div class="clients_left">
+                    <h3>What our clients say about us</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed.</p>
+                </div>
+                <div class="clients_right">
+                    <h4>"The best agency we've worked with so far. They understand our product and are able to add new features with a great focus."</h4>
+                    <div class="clients_content">
+                        <div class="clients_card">
+                            <img src="./images/home/home_img_woman.png" alt="woman">
+                            <h5>
+                                Jenny Wilson 
+                                <span>Vice President</span>
+                            </h5>
+                        </div>
+                        <div class="clients_span">
+                            <span><</span>
+                            <span>></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
   <footer>
     <div class="container">
       <div class="footer">
@@ -150,6 +348,10 @@
     </div>
   </footer>
   <script src="./js/main.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 
 </html>
